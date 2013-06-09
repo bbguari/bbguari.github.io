@@ -1,0 +1,154 @@
+/** Stately setup
+*************************************/
+@font-face {
+  font-family: 'stately-webfont';
+  src: url("../font/stately-webfont.eot");
+  src: url("../font/stately-webfont.eot?#iefix") format("embedded-opentype"), url("../font/stately-webfont.woff") format("woff"), url("../font/stately-webfont.ttf") format("truetype"), url("../font/stately-webfont.svg#testfontRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.stately {
+  font: normal normal 600px/100% "stately-webfont";
+  font-size-adjust: none;
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: "liga=1";
+  -ms-font-feature-settings: "liga" 1;
+  -ms-font-feature-settings: "liga", "dlig";
+  overflow: hidden;
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+.stately li {
+  float: left;
+  margin: -20% 0 0 -100%;
+  position: relative;
+  left: 101%;
+  width: 100%;
+  cursor: default;
+  -webkit-transition: all 1s ease-in;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/** Style customizations
+*************************************/
+.stately {
+  background: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  border-top: 1px solid #dddddd;
+}
+
+
+#walmart {
+  color: #00aeef;
+}
+#walmart .ar,
+#walmart .ok,
+#walmart .ks,
+#walmart .ms,
+#walmart .al,
+#walmart .nh,
+#walmart .la,
+#walmart .mo,
+#walmart .wv,
+#walmart .ky
+{ color:#993404;}
+#walmart .nm,
+#walmart .nd,
+#walmart .ia,
+#walmart .wy,
+#walmart .ne,
+#walmart .tn
+{ color:#D95F0E;}
+#walmart .sc,
+#walmart .ut,
+#walmart .tx,
+#walmart .me,
+#walmart .co,
+#walmart .nv,
+#walmart .in,
+#walmart .nc,
+#walmart .sd,
+#walmart .az,
+#walmart .wi,
+#walmart .ga,
+#walmart .ak,
+#walmart .fl
+{ color:#FE9929;}
+#walmart .va,
+#walmart .mt,
+#walmart .oh,
+#walmart .mn,
+#walmart .il,
+#walmart .id,
+#walmart .pa,
+#walmart .mi,
+#walmart .de
+{
+  color: #FED98E;
+}
+#walmart .ct,
+#walmart .md,
+#walmart .or,
+#walmart .wa,
+#walmart .ri,
+#walmart .hi,
+#walmart .nj,
+#walmart .ma,
+#walmart .ca,
+#walmart .vt,
+#walmart .ny
+ {
+  color: #FFFFD4;
+}
+
+
+.wax-legend .legend-title {
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 90%;
+    }
+  .wax-legend .legend-scale ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    }
+  .wax-legend .legend-scale ul li {
+    display: block;
+    float: left;
+    width: 50px;
+    margin-bottom: 6px;
+    text-align: center;
+    font-size: 80%;
+    list-style: none;
+    }
+  .wax-legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 15px;
+    width: 50px;
+    }
+  .wax-legend .legend-source {
+    font-size: 70%;
+    color: #999;
+    clear: both;
+    }
+  .wax-legend a {
+    color: #777;
+    }
+	
